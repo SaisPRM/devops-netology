@@ -5,4 +5,4 @@ new line
 3. игнорировать crash.log и все файлы формата лог начинающиеся на crash
 4. гнорировать формат tfvars
 5. Игнорировать файлы override.tf override.tf.json и игнорировать все файлы у которых в названии есть _override.tf, _override.tf.json
-6. Игнорировать файлы .terraformrc terraform.rc
+6. Игнорировать файлы .terraformrc terraform.rcnew line
