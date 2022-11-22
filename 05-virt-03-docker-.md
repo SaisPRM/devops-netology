@@ -25,7 +25,7 @@ Hey, Netology
 
 Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на <https://hub.docker.com/username_repo>.
 
-**https://hub.docker.com/layers/saisprm/netology:nginx-1.0.1**
+**[https://hub.docker.com/layers/saisprm/netology:nginx-1.0.1](https://hub.docker.com/layers/saisprm/netology/nginx-1.0.1/images/sha256-55205a2670bf74e9505409e80b0b742677e2d8ef37f1ed865001fb1784ba0519?context=repo&tab=layers)**
 
 **Задача 2**
 
