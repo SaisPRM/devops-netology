@@ -14,7 +14,7 @@
 
             *3) Overlay сеть создается самим пользователем с целью того что бы контейнеры обращались к друг другу на прямую, как бы находясь в одной подсети в независимости где сами хосты.*
 
-
+## Задача 2
 
 Создать ваш первый Docker Swarm кластер в Яндекс.Облаке
 
@@ -23,6 +23,7 @@
 ```
 docker node ls
 ```
+![image](https://github.com/SaisPRM/devops-netology/blob/main/05-virt-05/src/Screenshot_25.jpg)
 
 ## Задача 3
 
@@ -33,6 +34,7 @@ docker node ls
 ```
 docker service ls
 ```
+![image](https://github.com/SaisPRM/devops-netology/blob/main/05-virt-05/src/Screenshot_26.jpg)
 
 ## Задача 4 (*)
 
@@ -42,6 +44,8 @@ docker service ls
 # см.документацию: https://docs.docker.com/engine/swarm/swarm_manager_locking/
 docker swarm update --autolock=true
 ```
+*Функция автолок блокирует докер на всех нодах(после перезапуска докера) для того что бы разблокировать нод потребуется каждый раз вводить команду разблокировки*
+![image](https://github.com/SaisPRM/devops-netology/blob/main/05-virt-05/src/Screenshot_258.jpg)
 
 ---
 
