@@ -45,7 +45,7 @@ docker service ls
 docker swarm update --autolock=true
 ```
 *Функция автолок блокирует докер на всех нодах(после перезапуска докера) для того что бы разблокировать нод потребуется каждый раз вводить команду разблокировки*
-![image](https://github.com/SaisPRM/devops-netology/blob/main/05-virt-05/src/Screenshot_258.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/05-virt-05/src/Screenshot_28.jpg)
 
 ---
 
