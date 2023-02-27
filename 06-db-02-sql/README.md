@@ -10,7 +10,7 @@
 
 Приведите получившуюся команду или docker-compose манифест.
 
-[](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-compose.jpg)
+https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-compose.jpg
 
 ## Задача 2
 
