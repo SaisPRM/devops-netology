@@ -10,7 +10,7 @@
 
 Приведите получившуюся команду или docker-compose манифест.
 
-https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-compose.jpg
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-compose.jpg)
 
 ## Задача 2
 
@@ -18,19 +18,19 @@ https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-com
 
 - создайте пользователя test-admin-user и БД test_db
   
-  2.1
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.1.jpg)
 - в БД test_db создайте таблицу orders и clients (спeцификация таблиц ниже)
   
-  2.2
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.2)
 - предоставьте привилегии на все операции пользователю test-admin-user на таблицы БД test_db
   
-  2.3
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.3.jpg)
 - создайте пользователя test-simple-user
   
-  2.4
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.4.jpg)
 - предоставьте пользователю test-simple-user права на SELECT/INSERT/UPDATE/DELETE данных таблиц БД test_db
   
-  2.5
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.5.jpg)
 
 Таблица orders:
 
@@ -49,16 +49,16 @@ https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-com
 
 - итоговый список БД после выполнения пунктов выше,
   
-  2.6
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.6.jpg)
 - описание таблиц (describe)
   
-  2.7
+ ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.7.jpg)
 - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
   
   test=# SELECT grantee, table_catalog, table_name, privilege_type FROM information_schema.table_privileges WHERE table_name IN ('orders','clients');
 - список пользователей с правами над таблицами test_db
   
-  2.8
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.8.jpg)
 
 ## Задача 3
 
@@ -84,7 +84,7 @@ https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-com
 | Ронни Джеймс Дио     | Russia            |
 | Ritchie Blackmore    | Russia            |
 
-3.1
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/3.1.jpg)
 
 Используя SQL синтаксис:
 
@@ -93,7 +93,7 @@ https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-com
   - запросы
   - результаты их выполнения.
     
-    3.2
+ ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/3.1.jpg)
 
 ## Задача 4
 
@@ -113,11 +113,11 @@ https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/docker-com
 
 SELECT* FROM clients WHERE заказ IS NOT NULL;
 
-
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/4.1.jpg)
 
 Подсказк - используйте директиву `UPDATE`.
 
-4.1
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/Screenshot_1.jpg)
 
 ## Задача 5
 
@@ -125,7 +125,7 @@ SELECT* FROM clients WHERE заказ IS NOT NULL;
 
 Приведите получившийся результат и объясните что значат полученные значения.
 
-5.1
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/5.1.jpg)
 
 Исходя из ответа мы видим что база данных выполнит последовательное сканирование таблицы clients, чтобы найти строки удовлетворяющие условию WHERE в запросе, где cost=0.00..18.10 это затраченные ресурсы, rows=806 это количество строк которые потребуется обработать БД, а width=72 обозначает ширину строки
 
@@ -133,18 +133,18 @@ SELECT* FROM clients WHERE заказ IS NOT NULL;
 
 Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. Задачу 1).
 
-6,1
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.1.jpg)
 
 Остановите контейнер с PostgreSQL (но не удаляйте volumes).
 
-6,2
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.2.jpg)
 
 Поднимите новый пустой контейнер с PostgreSQL.
 
-6,3
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.3.jpg)
 
 Восстановите БД test_db в новом контейнере.
 
-6,4
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.4.jpg)
 
 Приведите список операций, который вы применяли для бэкапа данных и восстановления.
