@@ -113,11 +113,11 @@
 
 SELECT* FROM clients WHERE заказ IS NOT NULL;
 
-![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/4.1.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/Screenshot_1.jpg)
 
 Подсказк - используйте директиву `UPDATE`.
 
-![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/Screenshot_1.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/4.1.jpg)
 
 ## Задача 5
 
