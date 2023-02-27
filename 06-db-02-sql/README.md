@@ -93,7 +93,7 @@
   - запросы
   - результаты их выполнения.
     
- ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/3.1.jpg)
+ ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/3.2.jpg)
 
 ## Задача 4
 
