@@ -133,15 +133,15 @@ SELECT* FROM clients WHERE заказ IS NOT NULL;
 
 Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. Задачу 1).
 
-![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.1.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6,1.jpg)
 
 Остановите контейнер с PostgreSQL (но не удаляйте volumes).
 
-![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.2.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6,2.jpg)
 
 Поднимите новый пустой контейнер с PostgreSQL.
 
-![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6.3.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/6,3.jpg)
 
 Восстановите БД test_db в новом контейнере.
 
