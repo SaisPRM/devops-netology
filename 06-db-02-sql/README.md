@@ -21,7 +21,7 @@
   ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.1.jpg)
 - в БД test_db создайте таблицу orders и clients (спeцификация таблиц ниже)
   
-  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.2)
+  ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.2.jpg))
 - предоставьте привилегии на все операции пользователю test-admin-user на таблицы БД test_db
   
   ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-02-sql/pic/2.3.jpg)
