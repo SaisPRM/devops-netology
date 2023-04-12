@@ -88,6 +88,6 @@
 Приведите в ответе изменённый файл `my.cnf`.
 
 ![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-03-mysql/screen/Screenshot_20.jpg)
-![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-03-mysql/screen/Screenshot_21.jpg)
+![image](https://github.com/SaisPRM/devops-netology/blob/main/06-db-03-mysql/screen/Screenshot_23.jpg)
 
 p.s параметры взяты от сюда солгасно ТЗ [MySQL :: MySQL 8.0 Reference Manual :: 15 The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
