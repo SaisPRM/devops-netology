@@ -4,13 +4,13 @@
 
 Используя Docker, поднимите инстанс PostgreSQL (версию 13). Данные БД сохраните в volume.
 
-1
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/1.jpg)
 
-2
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/2.jpg)
 
 Подключитесь к БД PostgreSQL, используя `psql`.
 
-3
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/3.jpg)
 
 Воспользуйтесь командой `\?` для вывода подсказки по имеющимся в `psql` управляющим командам.
 
@@ -18,43 +18,43 @@
 
 - вывода списка БД,
   
-  4
+  ![image](06-db-04-postgresql/06-db-04-postgresql/screen/4.jpg)
 - подключения к БД,
   
-  5
+  ![image](06-db-04-postgresql/06-db-04-postgresql/screen/5.jpg)
 - вывода списка таблиц,
   
-  6
+  ![image](06-db-04-postgresql/06-db-04-postgresql/screen/6.jpg)
 - вывода описания содержимого таблиц,
   
-  7
+  ![image](06-db-04-postgresql/06-db-04-postgresql/screen/7.jpg)
 - выхода из psql.
   
-  8
+  ![image](06-db-04-postgresql/06-db-04-postgresql/screen/8.jpg)
 
 ## Задача 2
 
 Используя `psql`, создайте БД `test_database`.
 
-9
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/9.jpg)
 
 Изучите [бэкап БД](https://github.com/netology-code/virt-homeworks/tree/virt-11/06-db-04-postgresql/test_data).
 
 Восстановите бэкап БД в `test_database`.
 
-10
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/10.jpg)
 
 Перейдите в управляющую консоль `psql` внутри контейнера.
 
 Подключитесь к восстановленной БД и проведите операцию ANALYZE для сбора статистики по таблице.
 
-11
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/11.jpg)
 
-12
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/12.jpg)
 
 Используя таблицу [pg_stats](https://postgrespro.ru/docs/postgresql/12/view-pg-stats), найдите столбец таблицы `orders` с наибольшим средним значением размера элементов в байтах.
 
-13
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/13.jpg)
 
 **Приведите в ответе** команду, которую вы использовали для вычисления, и полученный результат.
 
@@ -66,9 +66,9 @@
 
 Можно ли было изначально исключить ручное разбиение при проектировании таблицы orders?
 
-14
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/14.jpg)
 
-15
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/15.jpg)
 
 По поводу изначального разбиение  по разным таблицам(я так понимаю цель в автоматическом режиме) исходя из цены можно попробывать это сделать через функциональные индексы. Я вижу это в создании родительской таблицы и 2е дочерние которые автоматически будут раскидывать данные в первую  таблицу до 500 во вторую после 500.
 
@@ -76,7 +76,7 @@
 
 Используя утилиту `pg_dump`, создайте бекап БД `test_database`.
 
-16
+![image](06-db-04-postgresql/06-db-04-postgresql/screen/16.jpg)
 
 Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 
