@@ -23,13 +23,13 @@
 
 - текст Dockerfile-манифеста,
   
-![image](screen/1.jpg)
+![image](1.jpg)
 - ссылку на образ в репозитории dockerhub,
   
   [Ссылка на образ](https://hub.docker.com/layers/saisprm/elastic/stable/images/sha256-30bde89880736fd87011add5970703b482189448e16f19cfdda64722bd1a148b?tab=layers)
 - ответ `Elasticsearch` на запрос пути `/` в json-виде.
   
-  ![image](screen/2.jpg)
+  ![image](2.jpg)
 
 Подсказки:
 
@@ -56,15 +56,15 @@
 | ind-2 | 1                 | 2               |
 | ind-3 | 2                 | 4               |
 
-![image](screen/3.jpg)
+![image](3.jpg)
 
 Получите список индексов и их статусов, используя API, и **приведите в ответе** на задание.
 
-![image](screen/4.jpg)
+![image](4.jpg)
 
 Получите состояние кластера `Elasticsearch`, используя API.
 
-![image](screen/6.jpg)
+![image](6.jpg)
 
 Как вы думаете, почему часть индексов и кластер находятся в состоянии yellow?
 
@@ -72,7 +72,7 @@
 
 Удалите все индексы.
 
-![image](screen/8.jpg)
+![image](8.jpg)
 
 
 
@@ -93,7 +93,7 @@
 
 **Приведите в ответе** запрос API и результат вызова API для создания репозитория.
 
-![image](screen/9.jpg)
+![image](9.jpg)
 
 Создайте индекс `test` с 0 реплик и 1 шардом и **приведите в ответе** список индексов.
 
@@ -101,21 +101,21 @@
 
 **Приведите в ответе** список файлов в директории со `snapshot`.
 
-![image](screen/10.jpg)
+![image](10.jpg)
 
-![image](screen/11.jpg)
+![image](11.jpg)
 
-![image](screen/12.jpg)
+![image](12.jpg)
 
 Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
 
-![image](screen/15.jpg)
+![image](15.jpg)
 
-![image](screen/13.jpg)
+![image](13.jpg)
 
 [Восстановите](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-restore-snapshot.html) состояние кластера `Elasticsearch` из `snapshot`, созданного ранее.
 
-![image](screen/14.jpg)
+![image](14.jpg)
 
 **Приведите в ответе** запрос к API восстановления и итоговый список индексов.
 
